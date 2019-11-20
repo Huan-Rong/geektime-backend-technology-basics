@@ -32,7 +32,7 @@ public class MergeDetect {
 
     HashMap<Integer, Object> hashMap = new HashMap<>();
     /*
-     * 遍历较长的链表，可以使用一个循环解决问题；但是遍历较短链表，则必须使用两个循；
+     * 遍历较长的链表，可以使用一个循环解决问题；但是遍历较短链表，则必须使用两个循环;
      * 这是因为较长链表的遍历可以覆盖较短链表的遍历，反之则不可。
      */
     for (int i = 0; i < linkedList2.size(); i++) {
